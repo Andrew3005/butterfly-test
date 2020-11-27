@@ -50,9 +50,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/butterfly-dag/dist/index.css"
             ],
-            "scripts": []
+            "scripts": [
+            ]
           },
           "configurations": {
             "production": {
@@ -145,6 +147,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "butterfly-test"
 }

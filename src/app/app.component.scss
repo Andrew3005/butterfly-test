@@ -1,0 +1,14 @@
+$bg-color: rgb(255,255,255);
+$dot-color: rgb(233, 235, 238);
+// Dimensions
+$dot-size: 2px;
+$dot-space: 12px;
+
+.main {
+  border: 1px solid #000;
+  height: 90vh;
+  background: linear-gradient(90deg, $bg-color ($dot-space - $dot-size), transparent 1%) center,
+    linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center, $dot-color;
+  background-size: $dot-space $dot-space;
+  position: relative;
+}

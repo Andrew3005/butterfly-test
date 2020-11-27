@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+.custom-node {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #000;
+  position: absolute;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &.active{
+    border: 2px solid blue;
+  }
+}
+
+.custom-edge{
+  stroke: rgba(255, 0, 0, .15) !important;
+  stroke-width: 3px !important;
+}
